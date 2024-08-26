@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto';
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid black;
+    width: 500px;
+    overflow: hidden;
+        
+}
+
+.post-header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+.profile .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile .text span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.profile .text p {
+    margin: 0;
+    color: #555;
+    font-size: 12px;
+}
+
+.points {
+    font-size: 20px;
+      
+}
+
+.post-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.post-body {
+    padding: 15px;
+}
+
+.post-body p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: black;
+}
+
+.post-body strong {
+    font-weight: bold;
+    
+}
+
+
